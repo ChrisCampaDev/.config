@@ -1,0 +1,136 @@
+// Zed settings
+// command palette (cmd-shift-p / ctrl-shift-p)
+{
+	//IA config
+	"agent": {
+		"always_allow_tool_actions": true,
+		"default_profile": "write",
+		"preferred_completion_mode": "normal",
+		"default_model": {
+			"provider": "copilot_chat",
+			"model": "gpt-5-mini"
+		},
+		"model_parameters": []
+	},
+	"edit_predictions": {
+		"mode": "eager"
+	},
+	"features": {
+		"edit_prediction_provider": "zed"
+	},
+
+	//Telemetry config
+	"telemetry": {
+		"diagnostics": false,
+		"metrics": false
+	},
+	//Font config
+	"ui_font_family": "Bitstream Vera Sans Mono",
+	"ui_font_weight": 300,
+	"ui_font_size": 15,
+	"ui_font_features": {
+		"calt": true
+	},
+	"buffer_font_size": 16,
+	"buffer_font_family": "Hack",
+	"buffer_font_weight": 500,
+	"buffer_line_height": { "custom": 1.4 },
+	//Terminal
+	"terminal": {
+		"default_height": 1000,
+		"blinking": "on",
+		"cursor_shape": "bar"
+	},
+
+	//Theme
+	"theme": {
+		"mode": "system",
+		"light": "Gruvbox Light",
+		"dark": "Gruvbox Dark Soft"
+	},
+
+	//Config Editor
+	"base_keymap": "VSCode",
+	"minimap": {
+		"max_width_columns": 80,
+		"thumb": "hover",
+		"display_in": "active_editor",
+		"thumb_border": "none",
+		"show": "auto"
+	},
+	"toolbar": {
+		"selections_menu": false,
+		"breadcrumbs": false,
+		"quick_actions": false
+	},
+	"scrollbar": {
+		"show": "never"
+	},
+	"icon_theme": "Symbols Icon Theme",
+
+	"project_panel": {
+		"dock": "right",
+		"entry_spacing": "standard"
+	},
+	"preview_tabs": {
+		"enabled": false
+	},
+	"tabs": {
+		"file_icons": true,
+		"show_close_button": "hover",
+		"git_status": true
+	},
+	"git": {
+		"inline_blame": { "enabled": false },
+		"git_gutter": "tracked_files"
+	},
+	"indent_guides": {
+		"background_coloring": "indent_aware",
+		"coloring": "indent_aware"
+	},
+	"relative_line_numbers": true,
+	"always_treat_brackets_as_autoclosed": true,
+	"wrap_guides": [100],
+	"show_wrap_guides": true,
+
+	"soft_wrap": "editor_width",
+	"current_line_highlight": "none",
+
+	//Vim Mode
+	"vim_mode": true,
+	"vim": {
+		"use_system_clipboard": "never",
+		"toggle_relative_line_numbers": true
+	},
+	"hide_mouse": "on_typing_and_movement",
+
+	//Cursor
+	"cursor_blink": false,
+	"cursor_shape": "bar",
+
+	//"tab_size": 4,
+	"hard_tabs": true,
+	"auto_indent": true,
+	"format_on_save": "on",
+	"autosave": {
+		"after_delay": { "milliseconds": 3000 }
+	},
+
+	//Languages
+	"languages": {
+		"Astro": {
+			"completions": { "words": "enabled" },
+			"always_treat_brackets_as_autoclosed": true,
+			"indent_guides": {
+				"background_coloring": "indent_aware"
+			}
+		},
+		"TSX": {
+			"allow_rewrap": "anywhere",
+			"always_treat_brackets_as_autoclosed": true,
+			"jsx_tag_auto_close": {
+				"enabled": true
+			}
+		}
+	}
+}
