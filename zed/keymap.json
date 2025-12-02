@@ -1,0 +1,103 @@
+// Zed keymap
+//
+// For information on binding keys, see the Zed
+// documentation: https://zed.dev/docs/key-bindings
+//
+// To see the default key bindings run `zed: open default keymap`
+// from the command palette.
+[
+	{
+		"context": "vim_mode == insert",
+		"bindings": {
+			"ctrl-x ctrl-c": "editor::ShowEditPrediction",
+			"ctrl-x ctrl-o": "editor::ShowCompletions",
+			"ctrl-x ctrl-a": "assistant::InlineAssist"
+		}
+	},
+	{
+		"context": "ProjectPanel && not_editing",
+		"bindings": {
+			"s h": "workspace::ActivatePaneLeft"
+		}
+	},
+	{
+		"context": "VimControl && !menu",
+		"bindings": {
+			"g s": "outline::Toggle",
+			"g i": "editor::ToggleCodeActions",
+			"g d": "editor::OpenExcerpts",
+			"g c": ["editor::ToggleComments", { "advance_downwards": false }]
+		}
+	},
+	{
+		"context": "Editor && VimControl && !VimWaiting && !menu",
+		"bindings": {
+			"g l": "vim::MenuSelectNext",
+			"g L": "vim::SelectPrevious",
+			"g a": "editor::SelectAllMatches",
+			"g shift-a": "editor::FindAllReferences",
+			"g f": "project_symbols::Toggle",
+			"space p e": "diagnostics::Deploy" // Display errors
+		}
+	},
+	{
+		"context": "Editor && (vim_mode == normal || vim_mode == visual) && !VimWaiting && !menu",
+		"bindings": {
+			//Open Mackdown Preview
+			"space m p": "markdown::OpenPreview",
+			"space m P": "markdown::OpenPreviewToTheSide",
+			//Git
+			"space g h d": "editor::ToggleSelectedDiffHunks",
+			"space g h r": "git::Restore"
+		}
+	},
+	{
+		"context": "Editor && vim_mode == normal && !VimWaiting && !menu",
+		"bindings": {
+			"space e": "editor::Hover",
+			//Buffer
+			"s v": "pane::SplitRight",
+			"s s": "pane::SplitDown",
+			"s l": "workspace::ActivatePaneRight",
+			"s h": "workspace::ActivatePaneLeft",
+			"s k": "workspace::ActivatePaneUp",
+			"s j": "workspace::ActivatePaneDown",
+			"space h": "pane::ActivatePreviousItem",
+			"space l": "pane::ActivateNextItem",
+			"space c": "pane::CloseActiveItem",
+			"space space": "file_finder::Toggle",
+			"space s": "pane::DeploySearch",
+			"space f": "editor::Format",
+			"space m": "tab_switcher::Toggle",
+			"ctrl-w l": "workspace::ToggleRightDock",
+			"ctrl-w h": "workspace::ToggleLeftDock",
+
+			//Error navigation
+			"] d": "editor::GoToDiagnostic",
+			"[ d": "editor::GoToPreviousDiagnostic",
+
+			//Git
+			"] g": "editor::GoToHunk",
+			"[ g": "editor::GoToPreviousHunk"
+		}
+	},
+	{
+		"context": "EmptyPane || SharedScreen",
+		"bindings": {
+			"space space": "file_finder::Toggle",
+			"space space r": "branches::OpenRecent"
+		}
+	},
+	{
+		"context": "Editor && vim_mode == visual && !VimWaiting && !menu",
+		"bindings": {
+			"g c": "editor::ToggleComments"
+		}
+	},
+	{
+		"context": "Editor && vim_mode == insert",
+		"bindings": {
+			// "j k": "vim::NormalBefore"
+		}
+	}
+]
