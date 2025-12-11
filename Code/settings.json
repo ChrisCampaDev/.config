@@ -1,0 +1,85 @@
+{
+	"window.zoomLevel": 0.5,
+
+	//Config
+	"editor.tabSize": 4,
+	"editor.fontSize": 16,
+	"editor.fontWeight": "400",
+	"editor.fontFamily": "Noto Sans Balinese",
+
+	"editor.formatOnPaste": true,
+	"editor.formatOnSave": true,
+
+	"editor.autoClosingBrackets": "always",
+	"editor.autoClosingComments": "always",
+
+	"github.copilot.nextEditSuggestions.enabled": true,
+
+	//Workbench
+	"workbench.iconTheme": "symbols",
+	"workbench.colorTheme": "Kanagawa Wave",
+	"workbench.editor.showTabs": "multiple",
+	"workbench.editor.titleScrollbarVisibility": "hidden",
+	"workbench.sideBar.location": "right",
+	"editor.lineHeight": 20,
+	"editor.fontLigatures": true,
+	"editor.cursorBlinking": "smooth",
+	"editor.wordWrap": "bounded",
+	"editor.wrappingIndent": "same",
+	"editor.lineNumbers": "relative",
+	"editor.wordWrapColumn": 60,
+	"editor.folding": false,
+	"editor.insertSpaces": false,
+	"editor.smoothScrolling": false,
+	"editor.minimap.enabled": false,
+	"editor.detectIndentation": true,
+	"editor.suggestSelection": "first",
+	"editor.scrollBeyondLastLine": false,
+	"editor.renderControlCharacters": false,
+	"editor.unicodeHighlight.ambiguousCharacters": false,
+	"editor.quickSuggestionsDelay": 0,
+	"editor.glyphMargin": false,
+	"editor.bracketPairColorization.enabled": false,
+	"editor.scrollbar.horizontal": "hidden",
+	"editor.scrollbar.vertical": "hidden",
+	"editor.hideCursorInOverviewRuler": true,
+	"window.menuBarVisibility": "toggle",
+
+	//zen mode
+	"zenMode.showTabs": "none",
+	"zenMode.centerLayout": false,
+	"zenMode.hideActivityBar": false,
+	"zenMode.hideStatusBar": true,
+	"zenMode.fullScreen": true,
+
+	//"outline.showNumbers": true,
+	"window.density.editorTabHeight": "compact",
+
+	//Formatters
+	"prettier.semi": true,
+	"prettier.useTabs": true,
+	"prettier.singleQuote": false,
+	"prettier.jsxSingleQuote": false,
+	"prettier.bracketSpacing": true,
+	"prettier.arrowParens": "avoid",
+	"editor.defaultFormatter": "esbenp.prettier-vscode",
+	"editor.inlineSuggest.enabled": true,
+
+	//Breadcrumbs
+	"breadcrumbs.enabled": false,
+
+	// Java/Typescript
+	"javascript.updateImportsOnFileMove.enabled": "always",
+	"javascript.preferences.quoteStyle": "double",
+	"javascript.format.semicolons": "insert",
+	"javascript.suggest.paths": false,
+	"typescript.updateImportsOnFileMove.enabled": "always",
+	"typescript.preferences.quoteStyle": "double",
+	"typescript.format.semicolons": "insert",
+	"typescript.suggest.paths": false,
+
+	"files.autoSave": "afterDelay",
+	"terminal.integrated.sendKeybindingsToShell": true,
+	"console-ninja.featureSet": "Community",
+	"biome.suggestInstallingGlobally": false
+}
