@@ -1,0 +1,227 @@
+{
+  "main": {
+    "id": "e9a3f8d2d2bf460b",
+    "type": "split",
+    "children": [
+      {
+        "id": "fa2aa7316f25e86f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a97afa92bb69009d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Work/Alsoftpro/Carga de trabajo de Alsoftpro.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Carga de trabajo de Alsoftpro"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "a897a77d770a8ae3",
+    "type": "split",
+    "children": [
+      {
+        "id": "1eaaf0f8dd5a0a88",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "3bb87a7038bda131",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": true
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "e9f1feddf9cbc882",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Buscar"
+            }
+          },
+          {
+            "id": "05f2819c7d6f22f1",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Marcadores"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 270.5
+  },
+  "right": {
+    "id": "4ab51c2573097f61",
+    "type": "split",
+    "children": [
+      {
+        "id": "f14c42ecadcbe298",
+        "type": "tabs",
+        "dimension": 66.50671785028791,
+        "children": [
+          {
+            "id": "5ce86bb86330c062",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Work/Alsoftpro/Carga de trabajo de Alsoftpro.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Carga de trabajo de Alsoftpro"
+            }
+          },
+          {
+            "id": "1b51bf7d525e68e7",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Work/Alsoftpro/Carga de trabajo de Alsoftpro.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Carga de trabajo de Alsoftpro"
+            }
+          },
+          {
+            "id": "73b1efd3a409f2c7",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          }
+        ],
+        "currentTab": 1
+      },
+      {
+        "id": "319b37e4dd4c10a0",
+        "type": "tabs",
+        "dimension": 33.493282149712094,
+        "children": [
+          {
+            "id": "8db8ec42e5292c6f",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {},
+              "icon": "calendar-with-checkmark",
+              "title": "Calendar"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false,
+      "obsidian-excalidraw-plugin:New drawing": false,
+      "vscode-editor:Create Code File": false
+    }
+  },
+  "active": "1b51bf7d525e68e7",
+  "lastOpenFiles": [
+    "Untitled Kanban.md",
+    "Code/Lenguajes de Desarrollo y Herramientas/Typescript/Sin título.md",
+    "Code/Lenguajes de Desarrollo y Herramientas/React/React.md",
+    "Code/Lenguajes de Desarrollo y Herramientas/Typescript",
+    "Code/Lenguajes de Desarrollo y Herramientas/React",
+    "Code/Lenguajes de Desarrollo y Herramientas/Go/Documentacion de curso de Go.md",
+    "Personal/CV Christian Campa.md",
+    "Personal/Calculo de webs.md",
+    "Projects/Excalidraw/Drawing 2025-12-22 00.17.10.excalidraw.md",
+    "Work/Alsoftpro/ALCOM/Capacitacion/POKE API pero con Pasos Extras.md",
+    "Projects/Diseno Plantilla",
+    "Work/Alsoftpro/Oficina Digital/Registro.md",
+    "Work/Alsoftpro/Carga de trabajo de Alsoftpro.md",
+    "Work/Alsoftpro/ALCOM/Documentacion/Arquitectura/Arquitectura de la Aplicación Alcom.md",
+    "Code/Sin título.md",
+    "Work/Alsoftpro/ALCOM/Facturacion/Organizacion de trabajo para las facturacion.md",
+    "Work/Alsoftpro/ALCOM/Residencial/Llamadas a la API para cobros pagos.md",
+    "Work/Alsoftpro/ALCOM/Residencial/Cobros pagos.md",
+    "Work/Alsoftpro/ALCOM/Residencial",
+    "Work/Alsoftpro/ALCOM/Facturacion/Organizacion de tareas.md",
+    "Work/Alsoftpro/VentaCA/Columna Grid Editable.md",
+    "Work/Alsoftpro/Oficina Digital/Arquitectura Next.md",
+    "Work/Alsoftpro/ALCOM/Capacitacion/Entrenamiento para los nuevos.md",
+    "Work/Alsoftpro/ALCOM/Documentacion/React/Guia de React.md",
+    "Work/Alsoftpro/ALCOM/Documentacion/Arquitectura",
+    "Work/Alsoftpro/ALCOM/Documentacion/React/Guia de React para en el proyecto.md",
+    "Untitled.base",
+    "Projects/Untitled",
+    "Personal/Uruguay/Documentos.md",
+    "Code/Lenguajes de Desarrollo y Herramientas/Go/Funciones.md",
+    "Code/Lenguajes de Desarrollo y Herramientas/Go/Condicionales.md",
+    "Code/Lenguajes de Desarrollo y Herramientas/Go/Bucles.md",
+    "Code/Clean Arquitecture/Adapter.md",
+    "Code",
+    "Untitled.canvas",
+    "Imagenes/Pokemon UI design.jpeg",
+    "Untitled 1.base",
+    "Work",
+    "Screenshot_20251129_234503.png",
+    "Alsoftpro/ALCOM/Documentacion/React/arquitecture.canvas",
+    "Code/Clean Arquitecture/Diagrama.canvas",
+    "Imagenes/Screenshot_20251129_163152.png",
+    "Imagenes/Screenshot_20251129_163212.png",
+    "Imagenes/Screenshot_20251129_174211.png",
+    "Imagenes/Screenshot_20251129_174048.png",
+    "Imagenes/Screenshot_20251129_171150.png",
+    "Imagenes/Screenshot_20251129_163226 1.png",
+    "Imagenes/Screenshot_20251129_163226.png",
+    "Sin título.canvas"
+  ]
+}

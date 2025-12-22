@@ -1,0 +1,3 @@
+- Trabajo como Desarrollador frontend donde tuve que hacer una documentacion de las herramientas de trabajo usadas en la empresa [[Guia de React]] . 
+- Trabajo en proyectos de capacitacion para los nuevos aspirantes de la empresa siendo el cabecilla de analizar su desarrollo usando de base la API de pokemons online [[POKE API pero con Pasos Extras]]
+- Trabajo de una oficina digital [[Arquitectura Next]] 

@@ -1,0 +1,15 @@
+{
+	"nodes":[
+		{"id":"d0fea0ce05ab0433","type":"file","file":"Code/Clean Arquitecture/Domain.md","x":-1200,"y":-1000,"width":400,"height":400,"color":"1"},
+		{"id":"1f8da2bebd2cb652","type":"file","file":"Code/Clean Arquitecture/Extern.md","x":320,"y":-1000,"width":400,"height":400,"color":"3"},
+		{"id":"40dfdd171efd89cc","type":"file","file":"Code/Clean Arquitecture/Use case.md","x":-680,"y":-1000,"width":400,"height":400,"color":"5"},
+		{"id":"345ead188734e280","type":"file","file":"Code/Clean Arquitecture/Adapter.md","x":-180,"y":-1000,"width":400,"height":400,"color":"4"}
+	],
+	"edges":[
+		{"id":"59f75c876053a834","fromNode":"d0fea0ce05ab0433","fromSide":"right","toNode":"40dfdd171efd89cc","toSide":"left"},
+		{"id":"095aef051d31517a","fromNode":"40dfdd171efd89cc","fromSide":"right","toNode":"345ead188734e280","toSide":"left"},
+		{"id":"f2431623e9622f34","fromNode":"345ead188734e280","fromSide":"right","toNode":"1f8da2bebd2cb652","toSide":"left"},
+		{"id":"fa1bdf411632d609","fromNode":"345ead188734e280","fromSide":"top","toNode":"d0fea0ce05ab0433","toSide":"top","color":"6","label":"Relacion bidireccional"},
+		{"id":"e6c649f29f0941a6","fromNode":"345ead188734e280","fromSide":"top","toNode":"40dfdd171efd89cc","toSide":"top","color":"6","label":"bidireccional"}
+	]
+}
