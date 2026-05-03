@@ -2,17 +2,7 @@
 // command palette (cmd-shift-p / ctrl-shift-p)
 {
 	//IA config
-	"cli_default_open_behavior": "existing_window",
- "outline_panel": {
-  "dock": "left"
- },
- "collaboration_panel": {
-  "dock": "left"
- },
- "git_panel": {
-  "dock": "left"
- },
- "lsp": {
+	"lsp": {
 		"vtsls": {
 			"settings": {
 				"typescript": {
@@ -31,47 +21,39 @@
 	},
 	"agent_servers": {
 		"opencode": {
-			"favorite_config_option_values": {
-    "mode": [
-     "gentleman"
-    ]
-   },
-   "default_config_options": {
-    "mode": "gentleman"
-   },
-   "default_mode": "plan",
+			"default_mode": "plan",
 			"type": "registry",
 		},
 	},
 	"context_servers": {
 		"starwind-ui": {
-   "command": "npx",
+			"command": "npx",
 			"args": ["-y", "@starwind-ui/mcp"],
 			"env": {},
 		},
 		"mui-mcp": {
-   "command": "npx",
+			"command": "npx",
 			"args": ["-y", "@mui/mcp@latest"],
 		},
 		"mcp-server-github": {
-   "enabled": true,
+			"enabled": true,
 			"remote": false,
 			"settings": {
 				"github_personal_access_token": "GITHUB_PERSONAL_ACCESS_TOKEN",
 			},
 		},
 		"mcp-server-nextjs": {
-   "enabled": true,
+			"enabled": true,
 			"remote": false,
 			"settings": {},
 		},
 		"shadcn-mcp-server": {
-   "enabled": true,
+			"enabled": true,
 			"remote": false,
 			"settings": {},
 		},
 		"mcp-server-mui": {
-   "enabled": true,
+			"enabled": true,
 			"remote": false,
 			"settings": {
 				"preferred_theme": "",
@@ -80,8 +62,7 @@
 		},
 	},
 	"agent": {
-		"dock": "right",
-  "tool_permissions": {
+		"tool_permissions": {
 			"default": "allow",
 		},
 		"default_profile": "write",
@@ -121,9 +102,9 @@
 
 	//Theme
 	"theme": {
-		"mode": "dark",
-		"light": "Noctalia Light",
-		"dark": "ultraViolet",
+		"mode": "system",
+		"light": "Gruvbox Light",
+		"dark": "Aura Dark",
 	},
 	//debbuger
 	"debugger": {
